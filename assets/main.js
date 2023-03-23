@@ -47,7 +47,7 @@ let myDate= myDateTime[0].split('/')
     textnode+= `<div class="col-lg-6">
     <div class="inner_iplcard">
       <div class="left-team">
-        <img src="/images/${element.home_team}.png" alt="">
+        <img src="./images/${element.home_team}.png" alt="">
         <p>${element.home_team}</p>
       </div>
       <div class="Mid-teamDetail">
@@ -56,7 +56,7 @@ let myDate= myDateTime[0].split('/')
         <p>${myDateTime[1]+" "+myDateTime[2]}</p>
         <p>${myDate[0].padStart(2, '0')+" : "+myDate[1].padStart(2, '0')+" : "+myDate[2].slice(0,-1)}</p>
       </div>
-      <div class="Right-team"> <img src="/images/${element.away_team}.png" alt="">
+      <div class="Right-team"> <img src="./images/${element.away_team}.png" alt="">
       <p>${element.away_team}</p>
       </div>
     </div>
