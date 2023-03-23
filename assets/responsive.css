@@ -62,6 +62,9 @@
    width: 300px;
 }
 
+#Ipl_schedule div{
+    width: 100% !important;
+}
 
   }
 
@@ -101,6 +104,9 @@
     }
     .footer-area .container{
         max-width: 100%;
+    }
+    .Featured-Events .container p{
+        width: 100%;
     }
   }
 

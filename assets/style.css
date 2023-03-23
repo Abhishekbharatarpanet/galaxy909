@@ -82,12 +82,15 @@
 }
 .new-container form label{
     color: #fff;
+    font-size: 14px;
 }
 .new-container form input{
     width: 100%;
     border: none;
     outline: none;
     height: 40px;
+    border-radius: 6px;
+    padding-left: 10px; 
 }
 .new-container form input[type="submit"]{
     background-color: #000;
@@ -101,6 +104,7 @@
     width: 100%;
     border: none;
     outline: none;
+    border-radius: 6px;
 
 }
 
@@ -274,7 +278,7 @@
     }
 
  .verticale-game{
-    height: 100% !important;
+    height: 340px !important;
  }   
 
  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
@@ -362,6 +366,81 @@ text-decoration: none;
  }
 
 
+.Featured-Events{
+    width: 100%;
+    background: #000;
+    background-position: center;
+    padding: 50px 0;
+}
+.Featured-Events .container{
+    margin: auto;
+}
+
+.Featured-Events .container h1{
+    text-align: center;
+    color: #fff;
+}
+.Featured-Events .container p{
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.inner_iplcard{
+    border: 1px solid #0f1b41;
+    background-color: #0f1b41;
+    display: flex;
+    align-items: center;
+
+}
+
+.inner_iplcard div{
+    width: 33.3%;
+}
+.inner_iplcard div img{
+    width: 100%;
+}
+.Mid-teamDetail p{
+    width: 100% !important;
+}
+
+#myTabss li button{
+    /* width: 120px; */
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    background: transparent;
+    text-transform: uppercase;
+}
+#myTabss{
+    border-bottom: none;
+    background-color: #d72025;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.Featured-Events .container{
+    background-color: #17244e;
+    padding: 20px 0;
+}
+
+.inner_iplcard div img{
+    height: 120px !important;
+    object-fit: contain !important;
+}
+.Mid-teamDetail h2{
+    text-align: center;
+    color: #fff;
+}
+
+#Ipl_schedule{
+    justify-content: center;
+}
  #sticky_header{
     position: fixed;
     width: 80%;
