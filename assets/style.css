@@ -43,7 +43,7 @@
 }
 
 .main-banner{
-    background: url(/images/Banner.png);
+    background: url(./images/Banner.png);
     /* margin-top: -261px; */
     padding-top: 261px;
     /* height: 100vh; */
@@ -110,7 +110,7 @@
 }
 
 .second-section{
-    background:linear-gradient(#0000002d,#000000a6) ,url(/images/02.png);
+    background:linear-gradient(#0000002d,#000000a6) ,url(./images/02.png);
     /* height: 200px; */
     background-repeat:no-repeat ;
     margin-top: -90px;
@@ -143,7 +143,7 @@
 .top-games-area{
     width: 100%;
     background-color: #000;
-    background:linear-gradient(#000000a8,#000000b4) url(/images/BG.png);
+    background:linear-gradient(#000000a8,#000000b4) url(./images/BG.png);
     padding: 100px 0;
 }
 .top-games-heading{
@@ -249,7 +249,7 @@
 
 .New-games{
     width: 100%;
-    background: linear-gradient(#000000b9,  #0000009a), url(/images/BG.png);
+    background: linear-gradient(#000000b9,  #0000009a), url(./images/BG.png);
     background-size: cover;
     padding-bottom: 50px;
 }
@@ -281,7 +281,7 @@
     border: none;
  }
  .footer-area{
-    background:linear-gradient(#0000009d, #0000009d), url(/images/Footer.png);
+    background:linear-gradient(#0000009d, #0000009d), url(./images/Footer.png);
     background-position: center;
  }
 
@@ -322,7 +322,7 @@ text-decoration: none;
 
  .privacy-main{
     width: 100%;
-    background: linear-gradient(#0000008c, #0000009c), url(/images/Footer.png);
+    background: linear-gradient(#0000008c, #0000009c), url(./images/Footer.png);
     background-position: center;
 
  }
