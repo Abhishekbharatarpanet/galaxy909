@@ -15,7 +15,15 @@
 }
 /* for hamburger  ends*/
 
+@media screen and (min-width: 1759px) {
+    .main-banner{
+        background-size: cover;
+    }
+    .second-section{
+        margin-top: 0;
+    }
 
+}
 
 
 /* reponsive styling start from here */
@@ -30,6 +38,7 @@
 }
 
   }
+
 @media screen and (max-width: 1200px) {
  
 .navbar-brand{
