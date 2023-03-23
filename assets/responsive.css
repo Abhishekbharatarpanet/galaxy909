@@ -1,6 +1,6 @@
 /* for hamburger */
 .navbar-toggler-icon{
-    background-image: url(/images/white-hamburger-menu-icon-24.jpg);
+    background-image: url(../images/white-hamburger-menu-icon-24.jpg);
     width: 60px;
     height: 60px;
 }
